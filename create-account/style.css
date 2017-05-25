@@ -1,0 +1,124 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 250px;
+  background: #ba77ff;
+  position: relative; }
+
+.header-create {
+  width: 100%;
+  height: 48.5px;
+  background: #ba77ff; }
+  .header-create .back {
+    width: 22%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .header-create .back img {
+      width: auto;
+      height: 30%;
+      margin-left: 20px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1; }
+  .header-create .create {
+    width: 56%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .header-create .create p {
+      width: 100%;
+      font-family: AvenirBook;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      margin: 0;
+      font-size: 14pt;
+      z-index: 1; }
+  .header-create .save {
+    width: 22%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .header-create .save img {
+      width: auto;
+      height: 30%;
+      right: 20px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1; }
+
+.camera {
+  width: 100%;
+  height: 201.5px;
+  background: #ba77ff;
+  position: relative; }
+  .camera img {
+    width: auto;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+
+.ht-content {
+  width: 100%;
+  height: 46%; }
+
+.content {
+  width: 100%;
+  height: 18%;
+  border-bottom: 1px solid #f2f2f2; }
+  .content .input-icon {
+    width: 60px;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .content .input-icon img {
+      width: 45%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      height: 50%;
+      transform: translateX(50%) translateY(-50%); }
+  .content .input-value {
+    width: 313px;
+    height: 100%;
+    background: blue;
+    float: left; }
+    .content .input-value .user-name {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+      font-size: 15px;
+      float: right;
+      box-sizing: border-box;
+      border: 0px;
+      font-family: AvenirBook; }
+
+.footer {
+  width: 100%;
+  height: 111.5px;
+  text-align: center; }
+  .footer .already {
+    font-family: AvenirBook;
+    color: #cdc9c9;
+    padding-top: 60px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background_login.png");
+  background-size: 100% 100%;
+  position: relative; }
+
+.logo-container {
+  width: 100%;
+  height: 60%;
+  position: relative; }
+  .logo-container .logo-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 40%;
+    height: auto; }
+
+.sign-in-container {
+  width: 86%;
+  height: 26%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.submit {
+  width: 100%;
+  height: 31.3%;
+  background: #ba77ff;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0;
+  float: left;
+  font-family: AvenirBook; }
+
+.ht-input {
+  width: 100%;
+  height: 34.5%; }
+
+.input-icon {
+  width: 14%;
+  height: 100%;
+  display: inline-block;
+  position: relative; }
+  .input-icon img {
+    width: 32%;
+    height: 31%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.8; }
+
+.input-value {
+  width: 86%;
+  height: 100%;
+  float: right;
+  display: inline-block; }
+  .input-value .user-name {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    font-size: 14px;
+    float: right;
+    box-sizing: border-box;
+    border: 0px;
+    font-family: AvenirBook; }
+
+.user-name::placeholder {
+  color: rgba(29, 29, 38, 0.5); }
+
+.footer {
+  width: 86%;
+  height: 7%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%); }
+  .footer .create-account {
+    width: 49%;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    font-family: AvenirBook;
+    color: #a49e9e; }
+  .footer .Forgot-pass {
+    width: 49%;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    font-family: AvenirBook;
+    color: #a49e9e; }
+    .footer .Forgot-pass p {
+      float: right; }
+
+/*# sourceMappingURL=style.css.map */
