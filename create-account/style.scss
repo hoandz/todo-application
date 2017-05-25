@@ -14,7 +14,7 @@ html, body{
  }
  .header{
  	width: 100%;
- 	height: 250px;
+ 	height: 37%;
  	background: #ba77ff;
  	position: relative;
  }
@@ -73,7 +73,7 @@ html, body{
  }
  .camera{
  	width: 100%;
- 	height: 201.5px;
+ 	height: 160px;
  	background: #ba77ff;
  	position: relative;
  	img{
@@ -89,44 +89,42 @@ html, body{
 	width: 100%;
 	height: 46%;
 }
-.content{
+.ht-input{
 	width: 100%;
 	height: 18%;
-	border-bottom: 1px solid #f2f2f2;
-	.input-icon{
-		width: 60px;
+	.ht-input-icon{
+		width: 16%;
 		height: 100%;
-		float: left;
 		position: relative;
+		float: left;
 		img{
-			width: 45%;
-			height: auto;
+			width: 20px;
+			height: 20px;
 			position: absolute;
 			top: 50%;
-			height: 50%;
-			transform: translateX(50%) translateY(-50%);
-		}
-	}
-	.input-value{
-		width: 313px;
-		height: 100%;
-		background: blue;
-		float: left;
-		.user-name{
-			width: 100%;
-			height: 100%;
-			margin-top: 0;
-			font-size: 15px;
-			float: right;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
 			box-sizing: border-box;
-			border: 0px;
-			font-family: AvenirBook;
 		}
 	}
+	.ht-input-value{
+	width: 84%;
+	height: 100%;
+	float: left;
+	position: relative;
+	.user-name{
+		width: 96%;
+		height: 33px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		border: 0px solid;
+	}
+}
 }
 .footer{
 	width: 100%;
-	height: 111.5px;
+	height: 16.7%;
 	text-align: center;
 	.already{
 		font-family: AvenirBook;
