@@ -110,7 +110,8 @@ html, body {
       float: right;
       box-sizing: border-box;
       border: 0px;
-      font-family: AvenirBook; }
+      font-family: AvenirBook;
+  }
 
 .footer {
   width: 100%;
