@@ -1,3 +1,104 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
 
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background.png");
+  background-size: 100% 100%;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 17%; }
+  .header .of-5 {
+    color: #fff;
+    text-align: center;
+    font-family: AvenirBook; }
+  .header .quickly-manage-tasks {
+    color: #fff;
+    text-align: center;
+    font-family: AvenirBook; }
+
+.content {
+  width: 100%;
+  height: 72%;
+  position: relative; }
+  .content .disc-1 {
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    opacity: 0.05;
+    background: #fff;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .content .disc-2 {
+    width: 155px;
+    height: 155px;
+    object-fit: contain;
+    border-radius: 50%;
+    opacity: 0.06;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .content .disc-3 {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    object-fit: contain;
+    opacity: 0.07;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .content .disc-4 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: #ba77ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .content .disc-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+    .content .disc-5 img {
+      width: 22px;
+      height: 22px; }
+
+.footer {
+  width: 100%;
+  height: 11%;
+  position: relative; }
+  .footer .ht-footer {
+    width: 86.6%;
+    height: 69.6%;
+    background: #ba77ff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .footer .footer-text {
+    color: #fff;
+    text-align: center;
+    font-family: AvenirBook;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); }
 
 /*# sourceMappingURL=style.css.map */
