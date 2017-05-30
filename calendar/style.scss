@@ -1,0 +1,956 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background.png");
+  background-size: 100% 100%;
+  position: relative; }
+.header{
+	width: 100%;
+	height: 18%;
+	background: #ba77ff;
+	.ht-menu{
+		width: 100%;
+		height: 45%;
+		.icon-menu{
+			width: 20%;
+			height: 100%;
+			float: left;
+			position: relative;
+			img{
+				width: 21px;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+		}
+		.text-menu{
+			width: 58%;
+			height: 100%;
+			float: left;
+			margin: 0;
+			background: #ba77ff;
+			.border-text{
+				width: 60%;
+				height: 100%;
+				margin: 0 auto;
+				.text-fabruary{
+					width: 70%;
+					height: 100%;
+					float: left;
+					position: relative;
+					div{
+						color: #fff;
+						position: absolute;
+						top: 50%;
+						right: 0;
+						transform: translateY(-50%);
+						text-align: left;
+						font-size: 13pt;
+						font-family: AvenirBook;
+					}
+				}
+				.icon-v{
+					width: 26%;
+					height: 100%;
+					float: left;
+					position: relative;
+					img{
+						width: 13px;
+						height: auto;
+						position: absolute;
+						top: 55%;
+						transform: translateY(-55%);
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+		.icon-seach{
+			width: 20%;
+			height: 100%;
+			float: left;
+			position: relative;
+			img{
+				width: 22.5px;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+		}
+	}
+	.ht-monday{
+		width: 100%;
+		height: 55%;
+		background: #ba77ff;
+		.ht-sun{
+			width: 17.5%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 65%;
+				transform: translateX(-65%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-mon{
+			width: 13%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-tue{
+			width: 13%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-web{
+			width: 13%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-thu{
+			width: 13%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-fri{
+			width: 13%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+		.ht-sat{
+			width: 17.5%;
+			height: 100%;
+			float: left;
+			position: relative;
+			div{
+				position: absolute;
+				top: 50%;
+				right: 65%;
+				transform: translateX(65%) translateY(-50%);
+				font-family: AvenirBook;
+				color: #fff;
+				letter-spacing: 1.1px;
+				font-size: 10pt;
+				opacity: 0.7;
+			}
+		}
+	}
+}
+.border-them{
+	width: 100%;
+	height: 2%;
+}
+.hang-1{
+	width: 100%;
+	height: 9%;
+	.so-31{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 65%;
+			transform: translateX(-65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-1{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+
+	}
+	.so-2{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-3{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-4{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-5{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-6{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			right: 65%;
+			transform: translateX(65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+}
+.hang-2{
+	width: 100%;
+	height: 8%;
+	.so-7{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 65%;
+			transform: translateX(-65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-8{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-9{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-10{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-11{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-12{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-13{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			right: 75%;
+			transform: translateX(75%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			right: 65%;
+			transform: translateX(65%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+}
+.hang-3{
+	width: 100%;
+	height: 8%;
+	.so-14{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 65%;
+			transform: translateX(-65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-15{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-16{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-17{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-18{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-19{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-20{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+
+		div{
+			position: absolute;
+			top: 50%;
+			right: 65%;
+			transform: translateX(65%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+}
+.hang-4{
+	width: 100%;
+	height: 8%;
+	.so-21{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 65%;
+			transform: translateX(-65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-22{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-23{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-24{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-25{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-26{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-27{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			right: 65%;
+			transform: translateX(65%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+}
+.hang-5{
+	width: 100%;
+	height: 9%;
+	.so-28{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		.calendar{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			position: absolute;
+			top: 50%;
+			left: 75%;
+			transform: translateX(-75%) translateY(-50%);
+			opacity: 0.1;
+		}
+		div{
+			position: absolute;
+			top: 50%;
+			left: 65%;
+			transform: translateX(-65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+	.so-1{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+	}
+	.so-2{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+	.so-3{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+	.so-4{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+	.so-5{
+		width: 13.6%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			color: #fff;
+			font-family: AvenirBook;
+			font-size: 13px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+	.so-6{
+		width: 16%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			position: absolute;
+			top: 50%;
+			right: 65%;
+			transform: translateX(65%) translateY(-50%);
+			color: rgba(255, 255, 255, 0.5);
+			font-family: AvenirBook;
+			font-size: 13px;
+		}
+	}
+}
+.status-text{
+	width: 100%;
+	height: 23%;
+	position: relative;
+	div{
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		line-height: 1.5;
+		font-size: 14px;
+		font-family: AvenirBook;
+		letter-spacing: 1.1px;
+		opacity: 0.7;
+	}
+}
+.footer{
+	width: 100%;
+	height: 15%;
+	position: relative;
+	div{
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		background: #ba77ff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+	img{
+		width: 22px;
+		height: 22px;	
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
