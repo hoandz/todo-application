@@ -1,0 +1,284 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background.png");
+  background-size: 100% 100%;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 24%;
+  background: #ba77ff; }
+  .header .menu {
+    width: 100%;
+    height: 25%; }
+    .header .menu .icon-menu {
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .menu .icon-menu img {
+        width: 32%;
+        height: 38%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); }
+    .header .menu .text-menu {
+      width: 58%;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin: 0; }
+      .header .menu .text-menu div {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: AvenirBook;
+        font-size: 9pt;
+        line-height: 2.5;
+        letter-spacing: 0.8px; }
+    .header .menu .icon-maks {
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .menu .icon-maks img {
+        border-radius: 50%;
+        width: 45%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); }
+  .header .menu-day {
+    width: 100%;
+    height: 71.4%; }
+    .header .menu-day .january {
+      width: 21.75%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .menu-day .january .background-january {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff;
+        opacity: 0.1; }
+      .header .menu-day .january .text-january {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: Avenirbook;
+        letter-spacing: 0.8px; }
+    .header .menu-day .febuary {
+      width: 22%;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin-left: 4%; }
+      .header .menu-day .febuary .background-febuary {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff;
+        opacity: 0.1; }
+      .header .menu-day .febuary .text-febuary {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: Avenirbook;
+        letter-spacing: 0.8px; }
+    .header .menu-day .march {
+      width: 22%;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin-left: 4%; }
+      .header .menu-day .march .background-march {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff; }
+      .header .menu-day .march .text-march {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: Avenirbook; }
+    .header .menu-day .april {
+      width: 22.25%;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin-left: 4%; }
+      .header .menu-day .april .background-april {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff;
+        opacity: 0.1; }
+      .header .menu-day .april .text-april {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: Avenirbook;
+        letter-spacing: 0.8px; }
+
+.content {
+  width: 100%;
+  height: 66.6%; }
+  .content .current-progress {
+    width: 100%;
+    height: 60%;
+    position: relative; }
+    .content .current-progress .border-ngoai {
+      width: 200px;
+      height: 200px;
+      border: 5px solid #50d2c2;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%); }
+    .content .current-progress .number {
+      color: #fff;
+      font-size: 50px;
+      font-family: avenirbook;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      letter-spacing: 0.8px; }
+    .content .current-progress .text {
+      color: #fff;
+      opacity: 0.4;
+      font-size: 11px;
+      font-family: avenirbook;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-75%);
+      letter-spacing: 0.8px; }
+  .content .thong-ke {
+    width: 100%;
+    height: 40%; }
+    .content .thong-ke .border-bottom {
+      width: 100%;
+      height: 1.5px;
+      background: #fff;
+      opacity: 0.1; }
+    .content .thong-ke .ht-thong-ke {
+      width: 100%;
+      height: 33%; }
+      .content .thong-ke .ht-thong-ke .ht-icon-thong-ke {
+        width: 75%;
+        height: 100%;
+        float: left; }
+        .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-icon-thong-ke {
+          width: 16%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-icon-thong-ke img {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%); }
+        .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-text-thong-ke {
+          width: 82%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-text-thong-ke div {
+            color: #fff;
+            opacity: 0.6;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: avenirbook;
+            letter-spacing: 0.8px;
+            font-size: 12px; }
+      .content .thong-ke .ht-thong-ke .ht-phan-tram {
+        width: 23%;
+        height: 100%;
+        float: left; }
+        .content .thong-ke .ht-thong-ke .ht-phan-tram .border-number {
+          width: 47%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .content .thong-ke .ht-thong-ke .ht-phan-tram .border-number div {
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: avenirbook;
+            letter-spacing: 0.8px;
+            text-align: right;
+            opacity: 0.6;
+            font-size: 12px; }
+        .content .thong-ke .ht-thong-ke .ht-phan-tram .border-phan-tram {
+          width: 50%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .content .thong-ke .ht-thong-ke .ht-phan-tram .border-phan-tram div {
+            color: #fff;
+            opacity: 0.6;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: avenirbook;
+            letter-spacing: 0.8px;
+            text-align: right;
+            font-size: 12px; }
+
+.footer {
+  width: 100%;
+  height: 9%;
+  position: relative; }
+  .footer .border-footer {
+    width: 50px;
+    height: 50px;
+    background: #ba77ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  .footer img {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+
+/*# sourceMappingURL=style.css.map */
