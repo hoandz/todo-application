@@ -1,0 +1,237 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background.png");
+  background-size: 100% 100%;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 45%;
+  background: #ba77ff; }
+  .header .ht-menu {
+    width: 100%;
+    height: 25%; }
+    .header .ht-menu .menu {
+      width: 37.5%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .ht-menu .menu div {
+        width: 25px;
+        height: 100%;
+        position: relative;
+        float: left;
+        margin-left: 14px; }
+        .header .ht-menu .menu div img {
+          width: 21px;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+    .header .ht-menu .text {
+      width: 25%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .ht-menu .text div {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        letter-spacing: 1px;
+        font-family: avenirbook;
+        font-size: 17px; }
+    .header .ht-menu .ht-pen {
+      width: 37.5%;
+      height: 100%;
+      float: left; }
+      .header .ht-menu .ht-pen div {
+        width: 25px;
+        height: 100%;
+        position: relative;
+        float: right;
+        margin-right: 14px; }
+        .header .ht-menu .ht-pen div img {
+          width: 21.5px;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+  .header .ht-avatar {
+    width: 100%;
+    height: 35%;
+    position: relative; }
+    .header .ht-avatar img {
+      width: 90px;
+      height: auto;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+  .header .ht-text {
+    width: 100%;
+    height: 35%; }
+    .header .ht-text .text-brandon {
+      width: 100%;
+      height: 40%; }
+      .header .ht-text .text-brandon div {
+        color: #fff;
+        text-align: center;
+        font-family: avenirbook;
+        font-size: 25px;
+        letter-spacing: 0.5;
+        opacity: 0.8; }
+    .header .ht-text .text-comment {
+      width: 100%;
+      height: 60%; }
+      .header .ht-text .text-comment div {
+        color: #fff;
+        font-family: avenirbook;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0.5;
+        opacity: 0.8;
+        line-height: 1.45; }
+
+.content {
+  width: 100%;
+  height: 45%; }
+  .content .thong-ke {
+    width: 100%;
+    height: 35%; }
+    .content .thong-ke .ht-completed {
+      width: 33%;
+      height: 100%;
+      float: left; }
+      .content .thong-ke .ht-completed .img-completed {
+        width: 100%;
+        height: 36%;
+        position: relative; }
+        .content .thong-ke .ht-completed .img-completed img {
+          width: 22px;
+          height: auto;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 0; }
+      .content .thong-ke .ht-completed .text-completed {
+        width: 100%;
+        height: 30%;
+        position: relative; }
+        .content .thong-ke .ht-completed .text-completed div {
+          color: #fff;
+          opacity: 0.5;
+          font-size: 11px;
+          font-family: avenirbook;
+          letter-spacing: 1.45;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+      .content .thong-ke .ht-completed .number-completed {
+        width: 100%;
+        height: 33%;
+        position: relative; }
+        .content .thong-ke .ht-completed .number-completed div {
+          color: #fff;
+          font-size: 20px;
+          font-family: avenirbook;
+          letter-spacing: 1.45;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+  .content .current-progress {
+    width: 100%;
+    height: 65%;
+    position: relative; }
+    .content .current-progress .ht-current {
+      width: 165px;
+      height: 165px;
+      border: 4px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%); }
+    .content .current-progress .number-current {
+      color: #fff;
+      font-size: 35px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      font-family: avenirbook; }
+    .content .current-progress .text-current {
+      color: #fff;
+      font-size: 11px;
+      position: absolute;
+      top: 66%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-66%);
+      font-family: avenirbook;
+      letter-spacing: 1.45;
+      opacity: 0.5; }
+
+.footer {
+  width: 100%;
+  height: 10%; }
+  .footer .menu {
+    width: 37.5%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .footer .menu div {
+      width: 25px;
+      height: 100%;
+      position: relative;
+      float: left;
+      margin-left: 14px; }
+      .footer .menu div img {
+        width: 9px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); }
+  .footer .text {
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative; }
+    .footer .text div {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      letter-spacing: 1.5px;
+      font-family: avenirbook;
+      font-size: 13px; }
+  .footer .ht-pen {
+    width: 37.5%;
+    height: 100%;
+    float: left; }
+    .footer .ht-pen div {
+      width: 25px;
+      height: 100%;
+      position: relative;
+      float: right;
+      margin-right: 14px; }
+      .footer .ht-pen div img {
+        width: 9px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%); }
+
+/*# sourceMappingURL=style.css.map */
