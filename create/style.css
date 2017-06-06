@@ -1,0 +1,148 @@
+@font-face {
+  font-family: AvenirBook;
+  src: url(Avenir/AvenirLTStd-Book.otf); }
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("img/background.png");
+  background-size: 100% 100%;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 26%;
+  background: #ba77ff; }
+  .header .menu {
+    width: 100%;
+    height: 28.6%; }
+    .header .menu .icon-menu {
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .menu .icon-menu img {
+        width: 32%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); }
+    .header .menu .text-menu {
+      width: 58%;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin: 0; }
+      .header .menu .text-menu div {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-family: AvenirBook;
+        font-size: 16px;
+        line-height: 2.5;
+        letter-spacing: 0.7px; }
+    .header .menu .icon-maks {
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .header .menu .icon-maks img {
+        border-radius: 50%;
+        width: 45%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%); }
+  .header .ht-monday {
+    width: 100%;
+    height: 71%; }
+    .header .ht-monday .text-1 {
+      width: 100%;
+      height: 40%; }
+      .header .ht-monday .text-1 div {
+        color: #fff;
+        font-size: 35pt;
+        text-align: center;
+        font-family: AvenirBook;
+        letter-spacing: 0.7px; }
+    .header .ht-monday .text-2 {
+      width: 100%;
+      height: 35%;
+      position: relative; }
+      .header .ht-monday .text-2 div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: #fff;
+        font-size: 14px;
+        font-family: AvenirBook;
+        opacity: 0.7;
+        letter-spacing: 0.7px; }
+
+.content {
+  width: 100%;
+  height: 67%; }
+  .content .ht-content {
+    width: 100%;
+    height: 14.3%; }
+    .content .ht-content .select-date {
+      width: 50%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .content .ht-content .select-date div {
+        padding-left: 20.5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: avenirbook;
+        letter-spacing: 0.3px;
+        color: #1d1d26;
+        font-size: 14px; }
+    .content .ht-content .text-time {
+      width: 44%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .content .ht-content .text-time div {
+        right: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: avenirbook;
+        letter-spacing: 0.3px;
+        color: #1d1d26;
+        font-size: 14px; }
+      .content .ht-content .text-time .ht-track {
+        width: 22%;
+        height: 100%;
+        position: relative;
+        float: right; }
+        .content .ht-content .text-time .ht-track .icon-track {
+          width: 32px;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0; }
+        .content .ht-content .text-time .ht-track .icon-knob {
+          width: 22px;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+  .content .border-content {
+    width: 100%;
+    height: 1px;
+    background: #1d1d26;
+    opacity: 0.1; }
+
+/*# sourceMappingURL=style.css.map */
