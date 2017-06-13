@@ -1,0 +1,222 @@
+@font-face {
+    font-family: AvenirBook;
+    src: url(Avenir/AvenirLTStd-Book.otf);
+}
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.header{
+	width: 100%;
+	height: 9%;
+	background: #ba77ff;
+	.back{
+		width: 17%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			width: 25px;
+			height: 100%;
+			position: relative;
+			float: left;
+			margin-left: 14px;
+			img{
+				width: 18.5px;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+		}
+		}
+		
+	}
+	.text{
+		width: 66%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+			color: #fff;
+			font-size: 17px;
+			letter-spacing: 0.3px;
+			font-family: avenirbook;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+	.seach{
+		width: 17%;
+		height: 100%;
+		float: left;
+		position: relative;
+		div{
+				width: 25px;
+				height: 100%;
+				position: relative;
+				float: right;
+				margin-right: 12px;
+		img{
+			width: 21px;
+			height: auto;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+	}
+}
+.content{
+	width: 100%;
+	height: 78%;
+	.ht-text{
+		width: 100%;
+		height: 15%;
+		.border-status{
+			width: 21.5%;
+			height: 100%;
+			float: left;
+			position: relative;
+			.vien-background{
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				border: 1px solid gray;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				opacity: 0.5;
+			}
+			.background-status{
+				width: 40px;
+				height: 40px;
+				background: #50d2c2;
+				border-radius: 50%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			img{
+				width: 23px;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				opacity: 0.5;
+			}
+		}
+		.border-text{
+			width: 61.7%;
+			height: 100%;
+			float: left;
+			.text{
+				width: 100%;
+				height: 50%;
+				position: relative;
+				.color{
+					position: absolute;
+					color: black;
+					top: 80%;
+					opacity: 0.5;
+					transform: translateY(-80%);
+					font-family: avenirbook;
+					font-size: 16px;
+					letter-spacing: 0.3px;
+				}
+				div{
+					position: absolute;
+					color: black;
+					top: 82%;
+					transform: translateY(-82%);
+					font-family: avenirbook;
+					font-size: 16px;
+					letter-spacing: 0.3px;
+				}
+			}
+			.ngay-thang{
+				width: 100%;
+				height: 50%;
+				position: relative;
+				div{
+					position: absolute;
+					color: black;
+					top: 20%;
+					transform: translateY(-20%);
+					font-family: avenirbook;
+					font-size: 13px;
+					opacity: 0.5;
+					letter-spacing: 0.3px;
+				}
+			}
+		}
+		.border-warning{
+			width: 16.8%;
+			height: 100%;
+			float: left;
+			position: relative;
+			.icon-warning{
+				width: 22px;
+				height: 22px;
+				border: 1.5px solid #ff3366;
+				position: absolute;
+				border-radius: 50%;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			.icon-cham-than{
+				color: red;
+				font-size: 16px;
+				position: absolute;
+				border-radius: 50%;
+				font-family: avenirbook;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+		}
+	}
+	.border-content{
+		width: 100%;
+		height: 1px;
+		background: gray;
+		opacity: 0.3;
+	}
+}
+.footer{
+	width: 100%;
+	height: 13%;
+	position: relative;
+	.background-footer{
+		width: 55px;
+		height: 55px;
+		background: #ba77ff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		border-radius: 50%;
+	}
+	img{
+		width: 22px;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		border-radius: 50%;
+	}
+}

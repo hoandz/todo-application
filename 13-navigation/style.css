@@ -50,13 +50,14 @@ html, body {
         height: 100%;
         position: relative;
         float: right;
-        margin-right: 14px; }
+        margin-right: 12px; }
         .header .ht-menu .ht-pen div img {
           width: 20px;
           height: auto;
           position: absolute;
           top: 50%;
-          transform: translateY(-50%); }
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%); }
   .header .ht-avatar {
     width: 100%;
     height: 43%;
@@ -77,57 +78,60 @@ html, body {
   .content .muc-luc {
     width: 100%;
     height: 12.5%; }
-    .content .muc-luc .ht-icon {
-      width: 20%;
+    .content .muc-luc .ht-muc-luc {
+      width: 85%;
       height: 100%;
-      float: left; }
-      .content .muc-luc .ht-icon .border-icon {
-        width: 50%;
+      margin: 0 auto; }
+      .content .muc-luc .ht-muc-luc .ht-icon {
+        width: 20%;
         height: 100%;
-        float: right;
+        float: left; }
+        .content .muc-luc .ht-muc-luc .ht-icon .border-icon {
+          width: 50%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .content .muc-luc .ht-muc-luc .ht-icon .border-icon img {
+            width: 26px;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); }
+      .content .muc-luc .ht-muc-luc .ht-text {
+        width: 60%;
+        height: 100%;
+        float: left;
         position: relative; }
-        .content .muc-luc .ht-icon .border-icon img {
-          width: 26px;
-          height: auto;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translateX(-50%) translateY(-50%); }
-    .content .muc-luc .ht-text {
-      width: 60%;
-      height: 100%;
-      float: left;
-      position: relative; }
-      .content .muc-luc .ht-text div {
-        margin-left: 20px;
-        color: #fff;
-        font-family: avenirbook;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        letter-spacing: 0.3px; }
-    .content .muc-luc .ht-number {
-      width: 20%;
-      height: 100%;
-      float: left;
-      position: relative; }
-      .content .muc-luc .ht-number .number {
-        width: 50%;
-        height: 100%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%); }
-        .content .muc-luc .ht-number .number div {
+        .content .muc-luc .ht-muc-luc .ht-text div {
           color: #fff;
           font-family: avenirbook;
-          font-size: 13.5px;
-          right: 0;
+          font-size: 14px;
           position: absolute;
           top: 50%;
-          transform: translateY(-50%); }
+          transform: translateY(-50%);
+          letter-spacing: 0.3px; }
+      .content .muc-luc .ht-muc-luc .ht-number {
+        width: 20%;
+        height: 100%;
+        float: left;
+        position: relative; }
+        .content .muc-luc .ht-muc-luc .ht-number .number {
+          width: 50%;
+          height: 100%;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0; }
+          .content .muc-luc .ht-muc-luc .ht-number .number div {
+            color: #fff;
+            font-family: avenirbook;
+            font-size: 13.5px;
+            right: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%); }
   .content .border {
-    width: 79%;
+    width: 85%;
     height: 1px;
     background: #fff;
     margin: 0 auto;
