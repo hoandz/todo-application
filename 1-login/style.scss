@@ -22,12 +22,12 @@ html, body{
 		left: 50%;	
 		top: 50%;
 		transform: translateX(-50%) translateY(-50%);
-		width: 40%;
+		width: 150px;
 		height: auto;
 	}
 }
 .sign-in-container{
-	width: 86%;
+	width: 90%;
 	height: 26%;
 	background: #fff;
 	position: absolute;
@@ -44,6 +44,11 @@ html, body{
 	margin-bottom: 0;
 	float: left;
 	font-family: AvenirBook;
+	border: none;
+
+}
+.submit:focus{
+	outline: none;
 }
 .ht-input{
 	width: 100%;
@@ -54,9 +59,9 @@ html, body{
 	height: 100%;
 	display: inline-block;
 	position: relative;
-	img{
-		width: 32%;
-		height: 31%;
+		img{
+		width: 20px;
+		height: auto;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -79,6 +84,9 @@ html, body{
 		border: 0px;
 		font-family: AvenirBook;
 	}
+	.user-name:focus{
+		outline: none;
+	}
 }
 .user-name::placeholder {
   color: rgba(29, 29, 38, 0.5);
@@ -98,6 +106,13 @@ html, body{
 		font-size: 12px;
 		font-family: AvenirBook;
 		color: #a49e9e;
+		a{
+			color: #fff;
+			text-decoration: none;
+			p{
+				opacity: 0.5;
+			}
+		}
 	}
 	.Forgot-pass{
 		width: 49%;

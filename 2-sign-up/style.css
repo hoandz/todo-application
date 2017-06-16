@@ -109,6 +109,8 @@ html, body {
       top: 50%;
       transform: translateY(-50%);
       border: 0px solid; }
+    .ht-input .ht-input-value .user-name:focus {
+      outline: none; }
 
 .footer {
   width: 100%;

@@ -120,6 +120,9 @@ html, body{
 		transform: translateY(-50%);
 		border: 0px solid;
 	}
+	.user-name:focus{
+		outline: none;
+	}
 }
 }
 .footer{
