@@ -89,73 +89,72 @@ html, body{
 	.muc-luc{
 		width: 100%;
 		height: 12.5%;
-		.ht-muc-luc{
-			width: 85%;
+		.border-icon{
+			width: 80px;
 			height: 100%;
-			margin: 0 auto;
+			box-sizing: border-box;
+			float: left;
 			.ht-icon{
-				width: 20%;
+				width: 40%;
 				height: 100%;
-				float: left;
-				.border-icon{
-					width: 50%;
-					height: 100%;
-					float: left;
-					position: relative;
-					img{
-						width: 26px;
-						height: auto;
-						position: absolute;
-						top: 50%;
-						transform: translateY(-50%);
-					}
+				margin: 0 auto;
+				position: relative;
+				img{
+					width: 25px;
+					height: auto;
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
 				}
 			}
-			.ht-text{
-				width: 60%;
+		}
+		.border-text{
+			width: calc(100% - 160px);
+			height: 100%;
+			box-sizing: border-box;
+			float: left;
+			position: relative;
+			div{
+				color: #fff;
+				font-family: avenirbook;
+				font-size: 14px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				letter-spacing: 0.3px;
+				opacity: 0.9;
+			}
+		}
+		.border-number{
+			width: 80px;
+			height: 100%;
+			box-sizing: border-box;
+			float: left;
+			.ht-icon{
+				width: 40%;
 				height: 100%;
-				float: left;
+				margin: 0 auto;
 				position: relative;
 				div{
 					color: #fff;
 					font-family: avenirbook;
-					font-size: 14px;
+					font-size: 13px;
 					position: absolute;
 					top: 50%;
+					right: 0;
 					transform: translateY(-50%);
 					letter-spacing: 0.3px;
-				}
-			}
-			.ht-number{
-				width: 20%;
-				height: 100%;
-				float: left;
-				position: relative;
-				.number{
-					width: 50%;
-					height: 100%;
-					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
-					right: 0;
-					div{
-						color: #fff;
-						font-family: avenirbook;
-						font-size: 13.5px;
-						right: 0;
-						position: absolute;
-						top: 50%;
-						transform: translateY(-50%);
-					}
+					opacity: 0.9;
 				}
 			}
 		}
 	}
 	.border{
-		width: 85%;
+		width: 88%;
 		height: 1px;
 		background: #fff;
 		margin: 0 auto;
 		opacity: 0.2;
+		box-sizing: border-box;
 	}
 }

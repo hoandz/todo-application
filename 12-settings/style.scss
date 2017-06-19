@@ -134,15 +134,15 @@ html, body{
 	.cai-dat-thong-tin{
 		width: 100%;
 		height: 23%;
-		position: relative;
+		border: 1px solid #fff;
 		.ht-avt{
-			width: 20%;
+			width: 100px;
 			height: 100%;
-			position: absolute;
-			display: inline-block;
-			left: 0px;
+			box-sizing: border-box;
+			float: left;
+			position: relative;
 			img{
-				width: 20px;
+				width: 23px;
 				height: auto;
 				position: absolute;
 				top: 50%;
@@ -151,21 +151,17 @@ html, body{
 			}
 		}
 		.ht-input{
-			width: 80%;
+			width: calc(100% - 100px);
 			height: 100%;
-			left: 20%;
-			display: inline-block;
-			position: absolute;
-
+			box-sizing: border-box;
+			float: left;
 			.user-name{
-				font-family: avenirbook;
-				border: 0px;
-				font-size: 14px;
-				position: absolute;
-				height: 35px;
 				width: 100%;
-				top: 50%;
-				transform: translateY(-50%);
+				height: 100%;
+				border: 0px;
+			}
+			.user-name:focus{
+				outline: none;
 			}
 		}
 	}

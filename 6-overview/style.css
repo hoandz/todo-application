@@ -195,77 +195,81 @@ html, body {
     width: 100%;
     height: 40%; }
     .content .thong-ke .border-bottom {
-      width: 100%;
+      width: 90%;
       height: 1.5px;
       background: #fff;
-      opacity: 0.1; }
+      opacity: 0.1;
+      margin: 0 auto; }
     .content .thong-ke .ht-thong-ke {
       width: 100%;
       height: 33%; }
-      .content .thong-ke .ht-thong-ke .ht-icon-thong-ke {
-        width: 75%;
+      .content .thong-ke .ht-thong-ke .ht-text-thong-ke {
+        width: 50%;
         height: 100%;
+        box-sizing: border-box;
         float: left; }
-        .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-icon-thong-ke {
-          width: 16%;
+        .content .thong-ke .ht-thong-ke .ht-text-thong-ke .border-icon {
+          width: 55px;
           height: 100%;
+          box-sizing: border-box;
           float: left;
           position: relative; }
-          .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-icon-thong-ke img {
-            width: 15px;
-            height: 15px;
+          .content .thong-ke .ht-thong-ke .ht-text-thong-ke .border-icon img {
+            width: 20px;
+            height: auto;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translateX(-50%) translateY(-50%); }
-        .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-text-thong-ke {
-          width: 82%;
+        .content .thong-ke .ht-thong-ke .ht-text-thong-ke .border-text {
+          width: calc(100% - 55px);
           height: 100%;
+          box-sizing: border-box;
           float: left;
           position: relative; }
-          .content .thong-ke .ht-thong-ke .ht-icon-thong-ke .border-text-thong-ke div {
+          .content .thong-ke .ht-thong-ke .ht-text-thong-ke .border-text div {
             color: #fff;
-            opacity: 0.6;
+            font-family: avenirbook;
+            font-size: 13px;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            font-family: avenirbook;
-            letter-spacing: 0.8px;
-            font-size: 12px; }
-      .content .thong-ke .ht-thong-ke .ht-phan-tram {
-        width: 23%;
+            opacity: 0.7; }
+      .content .thong-ke .ht-thong-ke .ht-number-thong-ke {
+        width: 50%;
         height: 100%;
+        box-sizing: border-box;
         float: left; }
-        .content .thong-ke .ht-thong-ke .ht-phan-tram .border-number {
-          width: 47%;
+        .content .thong-ke .ht-thong-ke .ht-number-thong-ke .ht-phan-tram {
+          width: 55px;
           height: 100%;
-          float: left;
+          float: right;
+          box-sizing: border-box;
           position: relative; }
-          .content .thong-ke .ht-thong-ke .ht-phan-tram .border-number div {
+          .content .thong-ke .ht-thong-ke .ht-number-thong-ke .ht-phan-tram div {
             color: #fff;
+            font-family: avenirbook;
+            font-size: 14px;
+            opacity: 0.7;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%); }
+        .content .thong-ke .ht-thong-ke .ht-number-thong-ke .ht-number {
+          width: calc(100% - 55px);
+          height: 100%;
+          float: right;
+          box-sizing: border-box;
+          position: relative; }
+          .content .thong-ke .ht-thong-ke .ht-number-thong-ke .ht-number div {
+            color: #fff;
+            font-family: avenirbook;
+            font-size: 14px;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            font-family: avenirbook;
-            letter-spacing: 0.8px;
-            text-align: right;
-            opacity: 0.6;
-            font-size: 12px; }
-        .content .thong-ke .ht-thong-ke .ht-phan-tram .border-phan-tram {
-          width: 50%;
-          height: 100%;
-          float: left;
-          position: relative; }
-          .content .thong-ke .ht-thong-ke .ht-phan-tram .border-phan-tram div {
-            color: #fff;
-            opacity: 0.6;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-family: avenirbook;
-            letter-spacing: 0.8px;
-            text-align: right;
-            font-size: 12px; }
+            right: 0;
+            opacity: 0.7; }
 
 .footer {
   width: 100%;

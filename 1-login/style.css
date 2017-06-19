@@ -9,7 +9,7 @@ html, body {
   width: 100%;
   height: 100%;
   background: url("img/background_login.png");
-  background-size: 100% 100%;
+  background-size: 100% auto;
   position: relative; }
 
 .logo-container {
@@ -52,31 +52,34 @@ html, body {
   height: 34.5%; }
 
 .input-icon {
-  width: 14%;
+  width: 45px;
   height: 100%;
   display: inline-block;
-  position: relative; }
-  .input-icon img {
-    width: 20px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    opacity: 0.8; }
-
-.input-value {
-  width: 86%;
-  height: 100%;
-  float: right;
-  display: inline-block; }
-  .input-value .user-name {
+  box-sizing: border-box;
+  float: left; }
+  .input-icon div {
     width: 100%;
     height: 100%;
-    margin-top: 0;
+    position: relative; }
+    .input-icon div img {
+      width: 20px;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 0.8; }
+
+.input-value {
+  width: calc(100% - 45px);
+  height: 100%;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box; }
+  .input-value .user-name {
+    width: 85%;
+    height: 100%;
     font-size: 14px;
-    float: right;
-    box-sizing: border-box;
     border: 0px;
     font-family: AvenirBook; }
   .input-value .user-name:focus {
@@ -113,6 +116,8 @@ html, body {
     font-family: AvenirBook;
     color: #a49e9e; }
     .footer .Forgot-pass p {
-      float: right; }
+      float: right;
+      opacity: 0.5;
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

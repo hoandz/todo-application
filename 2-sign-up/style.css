@@ -70,8 +70,8 @@ html, body {
   background: #ba77ff;
   position: relative; }
   .camera img {
-    width: auto;
-    height: 30%;
+    width: 55px;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,20 +85,19 @@ html, body {
   width: 100%;
   height: 18%; }
   .ht-input .ht-input-icon {
-    width: 16%;
+    width: 60px;
     height: 100%;
-    position: relative;
-    float: left; }
+    float: left;
+    position: relative; }
     .ht-input .ht-input-icon img {
-      width: 20px;
-      height: 20px;
+      width: 21px;
+      height: auto;
+      margin-left: 15px;
       position: absolute;
       top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      box-sizing: border-box; }
+      transform: translateY(-50%); }
   .ht-input .ht-input-value {
-    width: 84%;
+    width: calc(100% - 60px);
     height: 100%;
     float: left;
     position: relative; }

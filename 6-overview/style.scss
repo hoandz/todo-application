@@ -225,85 +225,90 @@ html, body{
 		width: 100%;
 		height: 40%;
 		.border-bottom{
-			width: 100%;
+			width: 90%;
 			height: 1.5px;
 			background: #fff;
 			opacity: 0.1;
+			margin: 0 auto;
 		}
 		.ht-thong-ke{
 			width: 100%;
 			height: 33%;
-			.ht-icon-thong-ke{
-				width: 75%;
+			.ht-text-thong-ke{
+				width: 50%;
 				height: 100%;
+				box-sizing: border-box;
 				float: left;
-				.border-icon-thong-ke{
-					width: 16%;
+				.border-icon{
+					width: 55px;
 					height: 100%;
+					box-sizing: border-box;
 					float: left;
 					position: relative;
 					img{
-						width: 15px;
-						height: 15px;
+						width: 20px;
+						height: auto;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translateX(-50%) translateY(-50%);
+
+					}
+				}
+				.border-text{
+					width: calc(100% - 55px);
+					height: 100%;
+					box-sizing: border-box;
+					float: left;
+					position: relative;
+					div{
+						color: #fff;
+						font-family: avenirbook;
+						font-size: 13px;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						opacity: 0.7;
+					}
+				}
+			}
+			.ht-number-thong-ke{
+				width: 50%;
+				height: 100%;
+				box-sizing: border-box;
+				float: left;
+				.ht-phan-tram{
+					width: 55px;
+					height: 100%;
+					float: right;
+					box-sizing: border-box;
+					position: relative;
+					div{
+						color: #fff;
+						font-family: avenirbook;
+						font-size: 14px;
+						opacity: 0.7;
 						position: absolute;
 						top: 50%;
 						left: 50%;
 						transform: translateX(-50%) translateY(-50%);
 					}
 				}
-				.border-text-thong-ke{
-					width: 82%;
+				.ht-number{
+					width: calc(100% - 55px);
 					height: 100%;
-					float: left;
+					float: right;
+					box-sizing: border-box;
 					position: relative;
 					div{
 						color: #fff;
-						opacity: 0.6;
-						position: absolute;
+						font-family: avenirbook;
+						font-size: 14px;
+						position:absolute;
 						top: 50%;
 						transform: translateY(-50%);
-						font-family: avenirbook;
-						letter-spacing: 0.8px;
-						font-size: 12px;
-					}
-				}
-			}
-			.ht-phan-tram{
-				width: 23%;
-				height: 100%;
-				float: left;
-				.border-number{
-					width: 47%;
-					height: 100%;
-					float: left;
-					position: relative;
-					div{
-						color: #fff;
-						position: absolute;
-						top: 50%;
-						transform: translateY(-50%);
-						font-family: avenirbook;
-						letter-spacing: 0.8px;
-						text-align: right;
-						opacity: 0.6;
-						font-size: 12px;
-					}
-				}
-				.border-phan-tram{
-					width: 50%;
-					height: 100%;
-					float: left;
-					position: relative;
-					div{
-						color: #fff;
-						opacity: 0.6;
-						position: absolute;
-						top: 50%;
-						transform: translateY(-50%);
-						font-family: avenirbook;
-						letter-spacing: 0.8px;
-						text-align: right;
-						font-size: 12px;
+						right: 0;
+						opacity: 0.7;
 					}
 				}
 			}
