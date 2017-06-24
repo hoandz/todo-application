@@ -194,12 +194,23 @@ html, body {
   .content .thong-ke {
     width: 100%;
     height: 40%; }
-    .content .thong-ke .border-bottom {
-      width: 90%;
-      height: 1.5px;
-      background: #fff;
-      opacity: 0.1;
-      margin: 0 auto; }
+    .content .thong-ke .bottom-line {
+      width: 100%;
+      height: 2px; }
+      .content .thong-ke .bottom-line .div-1 {
+        width: 19px;
+        height: 2px;
+        float: left; }
+      .content .thong-ke .bottom-line .div-2 {
+        width: calc(100% - 38px);
+        height: 2px;
+        float: left;
+        background: #fff;
+        opacity: 0.1; }
+      .content .thong-ke .bottom-line .div-3 {
+        width: 19px;
+        height: 2px;
+        float: left; }
     .content .thong-ke .ht-thong-ke {
       width: 100%;
       height: 33%; }
