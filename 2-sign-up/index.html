@@ -17,7 +17,7 @@
 						<p>Create account</p>
 					</div>
 					<div class="save">
-						<img src="img/save-button.png" alt="">
+						<img id="ht-save" src="img/save-button.png" onclick="signUp()" alt="">
 					</div>
 				</div>
 				<div class="camera">
@@ -25,14 +25,16 @@
 				</div>
 			</div>
 			<div class="ht-content">
+			<!-- username -->
 				<div class="ht-input">
 					<div class="ht-input-icon">
 						<img src="img/name.png" alt="">
 					</div>
 					<div class="ht-input-value">
-						<input class="user-name" type="text" placeholder="Username">
+						<input class="user-name" type="text" id="username" placeholder="Username">
 					</div>	
 				</div>
+				<!-- Email -->
 				<div class="ht-input">
 					<div class="ht-input-icon">
 						<img src="img/email.png" alt="">
@@ -41,14 +43,16 @@
 						<input class="user-name" type="text" placeholder="Email">
 					</div>	
 				</div>
+				<!-- password -->
 				<div class="ht-input">
 					<div class="ht-input-icon">
 						<img src="img/password.png" alt="">
 					</div>
 					<div class="ht-input-value">
-						<input class="user-name" type="password" placeholder="Password">
+						<input class="user-name" type="password" id="password" placeholder="Password">
 					</div>	
 				</div>
+				<!-- Birthday -->
 				<div class="ht-input">
 					<div class="ht-input-icon">
 						<img src="img/birthday.png" alt="">
@@ -57,6 +61,7 @@
 						<input class="user-name" type="text" placeholder="Birthday">
 					</div>	
 				</div>
+				<!-- gender -->
 				<div class="ht-input">
 					<div class="ht-input-icon">
 						<img src="img/gender.png" alt="">
@@ -70,5 +75,6 @@
 				<div class="already">Already have an account? Sign In</div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

@@ -97,20 +97,22 @@ html, body{
   color: rgba(29, 29, 38, 0.5);
 }
 .footer{
-	width: 86%;
+	width: 90%;
 	height: 7%;
 	position: absolute;
 	bottom: 0;
 	margin: 0 auto;
 	left: 50%;
 	transform: translateX(-50%);
+	box-sizing: border-box;
 	.create-account{
-		width: 49%;
+		width: 50%;
 		height: 100%;
 		float: left;
 		font-size: 12px;
 		font-family: AvenirBook;
 		color: #a49e9e;
+		box-sizing: border-box;
 		a{
 			color: #fff;
 			text-decoration: none;
@@ -120,12 +122,13 @@ html, body{
 		}
 	}
 	.Forgot-pass{
-		width: 49%;
+		width: 50%;
 		height: 100%;
 		float: left;
 		font-size: 12px;
 		font-family: AvenirBook;
 		color: #a49e9e;
+		box-sizing: border-box;
 		p{
 			float: right;
 			opacity: 0.5;
