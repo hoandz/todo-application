@@ -10,7 +10,8 @@ html, body {
   height: 100%;
   background: url("img/background.png");
   background-size: 100% auto;
-  position: relative; }
+  position: relative;
+  }
 .header{
 	width: 100%;
 	height: 18%;
@@ -102,12 +103,12 @@ html, body {
 		width: 100%;
 		height: 55%;
 		background: #ba77ff;
-		padding-left: 2.3%;
 		.ht-day{
 			width: 13.5%;
 			height: 100%;
 			float: left;
 			position: relative;
+			padding-left: 2.2px;
 			div{
 				position: absolute;
 				top: 50%;
@@ -129,12 +130,12 @@ html, body {
 .hang {
 	width: 100%;
 	height: 9%;
-	padding-left: 2.3%;
 	.so{
 		width: 13.6%;
 		height: 100%;
 		float: left;
 		position: relative;
+		padding-left: 2.2px;
 		.calendar{
 			width: 40px;
 			height: 40px;
@@ -177,7 +178,7 @@ html, body {
 }
 .footer{
 	width: 100%;
-	height: 15%;
+	height: 12%;
 	position: relative;
 	div{
 		width: 55px;

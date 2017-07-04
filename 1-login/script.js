@@ -1,17 +1,17 @@
-
-var ht_username = "tranhoan"
-var ht_password = "hoan"
-
+//tao ham login
 function login(){
-	//lay du lieu tai form usernam, password
-	var username = document.getElementById("username").value;
-	var password = document.getElementById("password").value;
-	//so sanh username, password minh nhap voi phan co san
-	if(username == ht_username && password == ht_password){
-		window.location.href = "../13-navigation/index.html";
-	}else{
-		alert('Khong hop le!');
-	}
-	//neu ca 2 khop voi phan co san thi chuyen den trang 13-navigation
-	//con khong thi alert "loi, vui long nhap lai"
+//lay du lieu username va password
+var email = document.getElementById('email').value;
+var password = document.getElementById('password').value;
+//ep kieu chuyen tu string ve object
+var user = JSON.parse(localStorage.getItem(email));
+//neu password = chinh password tai date thi chuyen den file 13-navigation
+//con khong dung thi bao loi
+if(password == user.password){
+	window.location = "./../13-navigation/index.HTML";
+}else{
+	alert("Loi")
 }
+
+}
+
