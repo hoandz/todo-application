@@ -83,195 +83,48 @@ html, body {
       opacity: 0.7;
       letter-spacing: 0.7px; }
 
-.ht-web-app {
+.content {
   width: 100%;
-  height: 13.2%; }
-  .ht-web-app .boder-text-left {
-    width: 70%;
-    height: 100%;
-    float: left;
-    box-sizing: border-box; }
-    .ht-web-app .boder-text-left .text-finish-home-screen {
-      width: 100%;
-      height: 60%;
-      position: relative; }
-      .ht-web-app .boder-text-left .text-finish-home-screen div {
-        margin-left: 21.2px;
-        color: #fff;
-        font-family: AvenirBook;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        letter-spacing: 0.7px;
-        opacity: 0.8; }
-    .ht-web-app .boder-text-left .text-web-app {
-      width: 100%;
-      height: 30%; }
-      .ht-web-app .boder-text-left .text-web-app div {
-        margin-left: 21.2px;
-        color: #fff;
-        font-family: AvenirBook;
-        letter-spacing: 0.7px;
-        opacity: 0.4;
-        font-size: 9pt; }
-  .ht-web-app .boder-text-right {
-    width: 30%;
-    height: 60%;
-    float: left;
-    position: relative;
-    box-sizing: border-box; }
-    .ht-web-app .boder-text-right div {
-      text-align: right;
-      color: #fff;
-      font-family: AvenirBook;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 21.2px;
-      letter-spacing: 0.7px;
-      opacity: 0.8;
-      font-size: 10pt; }
-
-.bottom-line {
-  width: 100%;
-  height: 2px; }
-  .bottom-line .div-1 {
-    width: 20px;
-    height: 2px;
-    float: left; }
-  .bottom-line .div-2 {
-    width: calc(100% - 40px);
-    height: 2px;
-    float: left;
-    background: #fff;
-    opacity: 0.1; }
-  .bottom-line .div-3 {
-    width: 20px;
-    height: 2px;
-    float: left; }
-
-.ht-lunch-app {
-  width: 100%;
-  height: 9.7%; }
-  .ht-lunch-app .boder-text-left {
-    width: 70%;
-    height: 100%;
-    float: left; }
-    .ht-lunch-app .boder-text-left .text-finish-home-screen {
-      width: 100%;
+  height: 57%;
+  overflow-y: scroll; }
+  .content .ht-web-app {
+    width: 100%;
+    height: 23%; }
+    .content .ht-web-app .boder-text-left {
+      width: 70%;
       height: 100%;
-      position: relative; }
-      .ht-lunch-app .boder-text-left .text-finish-home-screen div {
-        margin-left: 21.2px;
-        color: #fff;
-        font-family: AvenirBook;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        letter-spacing: 0.7px;
-        opacity: 0.8; }
-  .ht-lunch-app .boder-text-right {
-    width: 30%;
-    height: 100%;
-    float: left;
-    position: relative; }
-    .ht-lunch-app .boder-text-right div {
-      text-align: right;
-      color: #fff;
-      font-family: AvenirBook;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 21.2px;
-      letter-spacing: 0.7px;
-      opacity: 0.8;
-      font-size: 10pt; }
-
-.ht-finish {
-  width: 100%;
-  height: 19%; }
-  .ht-finish .finish-text {
-    width: 70%;
-    height: 100%;
-    float: left; }
-    .ht-finish .finish-text .text-design-stand-up {
-      width: 100%;
-      height: 25%;
-      position: relative; }
-      .ht-finish .finish-text .text-design-stand-up div {
-        margin-left: 21.2px;
-        color: #fff;
-        font-family: AvenirBook;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        letter-spacing: 0.7px;
-        opacity: 0.8; }
-    .ht-finish .finish-text .text-hangouts {
-      width: 100%;
-      height: 17%;
-      position: relative; }
-      .ht-finish .finish-text .text-hangouts div {
-        margin-left: 21.2px;
-        color: #fff;
-        font-family: AvenirBook;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        letter-spacing: 0.7px;
-        opacity: 0.4;
-        font-size: 9pt; }
-    .ht-finish .finish-text .avta-finish {
-      width: 100%;
-      height: 55%; }
-      .ht-finish .finish-text .avta-finish .avt-1 {
-        width: 30px;
-        height: 100%;
-        float: left;
-        margin-left: 21.2px;
+      float: left;
+      box-sizing: border-box; }
+      .content .ht-web-app .boder-text-left .text-finish-home-screen {
+        width: 100%;
+        height: 60%;
         position: relative; }
-        .ht-finish .finish-text .avta-finish .avt-1 img {
-          border-radius: 50%;
-          width: 30px;
-          height: auto;
+        .content .ht-web-app .boder-text-left .text-finish-home-screen div {
+          margin-left: 21.2px;
+          color: #fff;
+          font-family: AvenirBook;
           position: absolute;
           top: 50%;
-          transform: translateY(-50%); }
-      .ht-finish .finish-text .avta-finish .avt-2 {
-        width: 30px;
-        height: 100%;
-        float: left;
-        position: relative;
-        margin-left: 10px; }
-        .ht-finish .finish-text .avta-finish .avt-2 img {
-          border-radius: 50%;
-          width: 30px;
-          height: auto;
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%); }
-      .ht-finish .finish-text .avta-finish .avt-3 {
-        width: 30px;
-        height: 100%;
-        float: left;
-        position: relative;
-        margin-left: 10px; }
-        .ht-finish .finish-text .avta-finish .avt-3 img {
-          border-radius: 50%;
-          width: 30px;
-          height: auto;
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%); }
-  .ht-finish .finish-time {
-    width: 30%;
-    height: 100%;
-    float: left; }
-    .ht-finish .finish-time .ht-time {
-      width: 100%;
-      height: 30%;
-      position: relative; }
-      .ht-finish .finish-time .ht-time div {
+          transform: translateY(-50%);
+          letter-spacing: 0.7px;
+          opacity: 0.8; }
+      .content .ht-web-app .boder-text-left .text-web-app {
+        width: 100%;
+        height: 30%; }
+        .content .ht-web-app .boder-text-left .text-web-app div {
+          margin-left: 21.2px;
+          color: #fff;
+          font-family: AvenirBook;
+          letter-spacing: 0.7px;
+          opacity: 0.4;
+          font-size: 9pt; }
+    .content .ht-web-app .boder-text-right {
+      width: 30%;
+      height: 60%;
+      float: left;
+      position: relative;
+      box-sizing: border-box; }
+      .content .ht-web-app .boder-text-right div {
         text-align: right;
         color: #fff;
         font-family: AvenirBook;
@@ -282,24 +135,23 @@ html, body {
         letter-spacing: 0.7px;
         opacity: 0.8;
         font-size: 10pt; }
-
-.bottom-line {
-  width: 100%;
-  height: 2px; }
-  .bottom-line .div-1 {
-    width: 20px;
-    height: 2px;
-    float: left; }
-  .bottom-line .div-2 {
-    width: calc(100% - 40px);
-    height: 2px;
-    float: left;
-    background: #fff;
-    opacity: 0.1; }
-  .bottom-line .div-3 {
-    width: 20px;
-    height: 2px;
-    float: left; }
+  .content .bottom-line {
+    width: 100%;
+    height: 2px; }
+    .content .bottom-line .div-1 {
+      width: 20px;
+      height: 2px;
+      float: left; }
+    .content .bottom-line .div-2 {
+      width: calc(100% - 40px);
+      height: 2px;
+      float: left;
+      background: #fff;
+      opacity: 0.1; }
+    .content .bottom-line .div-3 {
+      width: 20px;
+      height: 2px;
+      float: left; }
 
 .footer {
   width: 100%;

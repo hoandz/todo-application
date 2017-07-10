@@ -8,6 +8,8 @@ var user = JSON.parse(localStorage.getItem(email));
 //neu password = chinh password tai date thi chuyen den file 13-navigation
 //con khong dung thi bao loi
 if(password == user.password){
+	//danh dau nguoi da login
+	localStorage.setItem('current_loggedin_user', email);
 	window.location = "./../13-navigation/index.HTML";
 }else{
 	alert("Loi")

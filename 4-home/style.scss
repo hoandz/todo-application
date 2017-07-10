@@ -97,9 +97,13 @@ html, body{
 		}
 	}
 }
-.ht-web-app{
+.content {
 	width: 100%;
-	height: 13.2%;
+	height: 57%;
+	overflow-y: scroll;
+	.ht-web-app{
+	width: 100%;
+	height: 23%;
 	.boder-text-left{
 		width: 70%;
 		height: 100%;
@@ -174,180 +178,8 @@ html, body{
 		float : left;
 	}
 }
-.ht-lunch-app{
-	width: 100%;
-	height: 9.7%;
-	.boder-text-left{
-		width: 70%;
-		height: 100%;
-		float: left;
-		.text-finish-home-screen{
-			width: 100%;
-			height: 100%;
-			position: relative;
-			div{
-				margin-left: 21.2px;
-				color: #fff;
-				font-family: AvenirBook;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				letter-spacing: 0.7px;
-				opacity: 0.8;
-			}
-		}
-	}
-	.boder-text-right{
-		width: 30%;
-		height: 100%;
-		float: left;
-		position: relative;
-			div{
-				text-align: right;
-				color: #fff;
-				font-family: AvenirBook;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				right: 21.2px;
-				letter-spacing: 0.7px;
-				opacity: 0.8;
-				font-size: 10pt;
-			}
-	}
 }
-.ht-finish{
-	width: 100%;
-	height: 19%;
-	.finish-text{
-		width: 70%;
-		height: 100%;
-		float: left;
-		.text-design-stand-up{
-			width: 100%;
-			height: 25%;
-			position: relative;
-			div{
-				margin-left: 21.2px;
-				color: #fff;
-				font-family: AvenirBook;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				letter-spacing: 0.7px;
-				opacity: 0.8;
-			}
-		}
-		.text-hangouts{
-			width: 100%;
-			height: 17%;
-			position: relative;
-			div{
-				margin-left: 21.2px;
-				color: #fff;
-				font-family: AvenirBook;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				letter-spacing: 0.7px;
-				opacity: 0.4;
-				font-size: 9pt;
-			}
-		}
-		.avta-finish{
-			width: 100%;
-			height: 55%;
-			.avt-1{
-				width: 30px;
-				height: 100%;
-				float: left;
-				margin-left: 21.2px;
-				position: relative;
-				img{
-					border-radius: 50%;
-					width: 30px;
-					height: auto;
-					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
-				}
-			}
-			.avt-2{
-				width: 30px;
-				height: 100%;
-				float: left;
-				position: relative;
-				margin-left: 10px;
-				img{
-					border-radius: 50%;
-					width: 30px;
-					height: auto;
-					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
-				}
-			}
-			.avt-3{
-				width: 30px;
-				height: 100%;
-				float: left;
-				position: relative;
-				margin-left: 10px;
-				img{
-					border-radius: 50%;
-					width: 30px;
-					height: auto;
-					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
-				}
-			}
-		}
-	}
-	.finish-time{
-		width: 30%;
-		height: 100%;
-		float: left;
-		.ht-time{
-			width: 100%;
-			height: 30%;
-			position: relative;
-			div{
-				text-align: right;
-				color: #fff;
-				font-family: AvenirBook;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				right: 21.2px;
-				letter-spacing: 0.7px;
-				opacity: 0.8;
-				font-size: 10pt;
-			}
-		}
-	}
-}
-.bottom-line{
-	width: 100%;
-	height: 2px;
-	.div-1{
-		width: 20px;
-		height: 2px;
-		float : left;
-	}
-	.div-2{
-		width: calc(100% - 40px);
-		height: 2px;
-		float : left;
-		background: #fff;
-		opacity: 0.1;
-	}
-	.div-3{
-		width: 20px;
-		height: 2px;
-		float : left;
-	}
-}
+
 .footer{
 	width: 100%;
 	height: 17%;
