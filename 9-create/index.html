@@ -9,7 +9,7 @@
 			<div class="header">
 				<div class="menu">
 					<div class="icon-menu">
-						<a href="./../13-navigation/index.html">
+						<a href="./../4-home/index.html">
 							<img src="img/icon-X.png" alt="">
 						</a>
 					</div>
@@ -17,19 +17,15 @@
 						<div>Add New</div>
 					</div>
 					<div class="icon-maks">
-						<img src="img/save-button.png" alt="">
+						<img src="img/save-button.png" onclick="create_todo_list()" alt="">
 					</div>
 				</div>
 				<div class="ht-monday">
 					<br/><div class="text-1">
-						<div>
-							Title
-						</div>
+					<input type="text" class="title" id="title" value="" placeholder="Title">
 					</div>
 					<div class="text-2">
-						<div>
-							Description
-						</div>
+					<input type="text" class="description" id="description" value="" placeholder="Description">
 					</div>
 				</div>
 			</div>
@@ -61,9 +57,7 @@
 					<div class="border-trong"></div>
 					<div class="text-time">
 						<div class="ht-time">
-							<div>
-								9:00am - 10:00am
-							</div>
+							<input type="text" class="time" id="time" value="" placeholder="00:00 am - 00:00 pm">
 						</div>
 					</div>
 				</div>
@@ -171,5 +165,6 @@
 				</div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

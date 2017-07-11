@@ -67,26 +67,35 @@ html, body {
     .header .ht-monday .text-1 {
       width: 100%;
       height: 40%; }
-      .header .ht-monday .text-1 div {
+      .header .ht-monday .text-1 .title {
+        width: 100%;
+        height: 100%;
+        background: #ba77ff;
+        font-size: 40px;
         color: #fff;
-        font-size: 35pt;
         text-align: center;
-        font-family: AvenirBook;
-        letter-spacing: 0.7px; }
+        border: 0px;
+        font-family: avenirbook; }
+      .header .ht-monday .text-1 ::placeholder {
+        color: #fff; }
+      .header .ht-monday .text-1 .title:focus {
+        outline: none; }
     .header .ht-monday .text-2 {
       width: 100%;
       height: 35%;
       position: relative; }
-      .header .ht-monday .text-2 div {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
+      .header .ht-monday .text-2 .description {
+        width: 100%;
+        height: 60%;
+        text-align: center;
         color: #fff;
-        font-size: 14px;
-        font-family: AvenirBook;
-        opacity: 0.7;
-        letter-spacing: 0.7px; }
+        background: #ba77ff;
+        border: 0px;
+        font-family: avenirbook; }
+      .header .ht-monday .text-2 ::placeholder {
+        color: #fff; }
+      .header .ht-monday .text-2 .description:focus {
+        outline: none; }
 
 .content {
   width: 100%;
@@ -135,6 +144,17 @@ html, body {
           letter-spacing: 0.3px;
           color: #1d1d26;
           font-size: 14px; }
+        .content .ht-content .text-time .ht-time .time {
+          width: 100%;
+          height: 100%;
+          border: 0px;
+          text-align: right;
+          font-size: 14px;
+          font-family: avenirbook; }
+        .content .ht-content .text-time .ht-time ::placeholder {
+          color: #1d1d26; }
+        .content .ht-content .text-time .ht-time .time:focus {
+          outline: none; }
       .content .ht-content .text-time .ht-track {
         width: 140px;
         height: 100%;
